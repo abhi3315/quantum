@@ -1,0 +1,34 @@
+{
+  "name": "@quantum/workspace",
+  "private": true,
+  "description": "Training and Placement Portal Monorepo",
+  "scripts": {
+    "start:boson": "yarn workspace @quantum/boson start",
+    "start:fermion": "yarn workspace @quantum/fermion start",
+    "start:momentum": "yarn workspace @quantum/momentum start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:abhi3315/quantum.git"
+  },
+  "keywords": [
+    "React",
+    "Node",
+    "JavaScript",
+    "JS",
+    "TypeScript",
+    "TS"
+  ],
+  "author": "abhi3315",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "craco": "^0.0.3"
+  }
+}
