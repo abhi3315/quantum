@@ -25,7 +25,7 @@ export default makeStyles((theme: Theme) => ({
     form: {
         alignItems: 'center',
         display: 'flex',
-        height: 385,
+        minHeight: 500,
         flexDirection: 'column',
         justifyContent: 'space-between',
         paddingBottom: theme.spacing(2.5),

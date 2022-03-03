@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Grid, Typography, TextField, Button } from '@mui/material';
 import { useFormik } from 'formik';
 import * as yup from 'yup';
@@ -36,7 +37,7 @@ const Login = () => {
                             <img src={Logo} alt="logo" className={classes.logo} />
                         </section>
                         <Typography variant="h5" align="center" color="primary">
-                            Login
+                            TPO Login
                         </Typography>
                     </div>
                     <div>
@@ -47,6 +48,7 @@ const Login = () => {
                             name="email"
                             variant="outlined"
                             margin="dense"
+                            size="small"
                             error={touched.email && !!errors.email}
                             helperText={touched.email && errors.email}
                             value={values.email}
@@ -59,6 +61,7 @@ const Login = () => {
                             type="password"
                             variant="outlined"
                             margin="dense"
+                            size="small"
                             error={touched.password && !!errors.password}
                             helperText={touched.password && errors.password}
                             value={values.password}
@@ -68,6 +71,9 @@ const Login = () => {
                     <Button color="primary" fullWidth type="submit" variant="contained">
                         Login
                     </Button>
+                    <Typography>
+                        Don't have an account? <Link to="/signup">Sign-up</Link>
+                    </Typography>
                 </form>
             </Grid>
         </Grid>
