@@ -1,4 +1,4 @@
-import app from '../../server';
+import app from '@quantum/momentum/src/server';
 
 
 export const getRoutes = (): Array<string> => {

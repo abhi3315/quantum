@@ -5,7 +5,7 @@
   "scripts": {
     "start:boson": "yarn workspace @quantum/boson start",
     "start:fermion": "yarn workspace @quantum/fermion start",
-    "start:momentum": "yarn workspace @quantum/momentum start",
+    "start:momentum": "yarn workspace @quantum/momentum dev:nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

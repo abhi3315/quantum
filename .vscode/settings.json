@@ -1,5 +1,5 @@
 {
-  "search.exclude": {
-    "yarn.lock": true
-  }
+    "search.exclude": {
+        "yarn.lock": true
+    }
 }
