@@ -41,5 +41,3 @@ StudentSchema.pre('save', function (this: IStudent, next) {
 const Student = mongoose.model<IStudent>(CollectionName.STUDENT, StudentSchema);
 
 export default Student;
-
-@ Todo I have to create the following fil
