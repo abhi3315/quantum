@@ -1,5 +1,0 @@
-{
-  "PORT": 7777,
-  "NODE_ENV": "development",
-  "MONGODB_URI": "mongodb+srv://quantum:tx32w5qQPAAyLJbP@cluster0.k2u2r.mongodb.net/quantum?retryWrites=true&w=majority"
-}
